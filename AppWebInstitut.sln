@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppWebInsitut.DataAccess", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppWebInstitut.ApiInstitut", "AppWebInstitut.ApiInstitut\AppWebInstitut.ApiInstitut.csproj", "{F47B5CF5-E96F-4B1B-B6E9-C96ECE43343E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppWebInstitut.Services", "AppWebInstitut.Services\AppWebInstitut.Services.csproj", "{458F75A4-1B6B-40DB-8825-055D27C6B2D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{F47B5CF5-E96F-4B1B-B6E9-C96ECE43343E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F47B5CF5-E96F-4B1B-B6E9-C96ECE43343E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F47B5CF5-E96F-4B1B-B6E9-C96ECE43343E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458F75A4-1B6B-40DB-8825-055D27C6B2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458F75A4-1B6B-40DB-8825-055D27C6B2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458F75A4-1B6B-40DB-8825-055D27C6B2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458F75A4-1B6B-40DB-8825-055D27C6B2D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
