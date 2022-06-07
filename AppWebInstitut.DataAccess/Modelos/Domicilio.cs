@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-namespace AppWebInsitut.DataAccess.Modelos
+namespace AppWebInstitut.DataAccess.Modelos
 {
     public class Domicilio
     {

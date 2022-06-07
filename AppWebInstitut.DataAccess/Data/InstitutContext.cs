@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using AppWebInsitut.DataAccess.Modelos;
+using AppWebInstitut.DataAccess.Modelos;
+
 namespace AppWebInsitut.DataAccess.Data
 {
     //DbContext pertenece a EntityFrameworkCore
@@ -19,5 +20,15 @@ namespace AppWebInsitut.DataAccess.Data
         public DbSet<Domicilio>? Domicilios { get; set; }
         public DbSet<Localidad>? Localidades { get; set; }
         public DbSet<Provincia>? Provincias { get; set; }
+        public DbSet<AlumnoXAsignatura>? AlumnoxAsignaturas {get; set; }
+        public DbSet<Cursado>? cursados { get; set; }
+        public DbSet <Curso>? cursos { get; set; }
+        public DbSet <DocentesXAsignatura>? docentesXAsignaturas { get; set; }
+        public DbSet<Docente>? Docentes{get;set;}
+        public DbSet<DocentesXAsignatura>? DocentesXAsignaturas{get;set;}
+        public DbSet<Resoluciones>? Resoluciones{get;set;}
+        public DbSet<TipoAsignatura>? TipoAsignaturas{get;set;}
+
+
     }
 }
