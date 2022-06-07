@@ -30,6 +30,7 @@ namespace AppWebInsitut.DataAccess.Modelos
         //Clave foranea
         public int LocalidadId { get; set; }
         [StringLength(15, MinimumLength =10, ErrorMessage = "Inserte un número de teléfono válido")]
+        [RegularExpression(@"^[0-9]{10,15}")]
         public string? NroTel { get; set; }
         [StringLength(15, MinimumLength =10, ErrorMessage = "Inserte un número de teléfono movil válido")]
         public string? NroMovil { get; set; }
